@@ -26,7 +26,7 @@ This section shows an Example Query that is implemented in the Microsoft SQL Que
    FROM Lichess..games
 ```
 ## How To Run <a name="paragraph3"></a>
-These queries are developed within the framework of the Microsoft SQL Server Management Studio though this can be executed within any appropriate framework.
+These queries were developed within the framework of the Microsoft SQL Server Management Studio([Link][2]) though this can be executed within any appropriate framework.
 
-
+[2]: https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15
 
