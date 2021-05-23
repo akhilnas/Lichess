@@ -4,9 +4,10 @@ SQL Queries performed on the Lichess Chess Database of Games played on its Platf
 
 ## Table of contents
 1. [About the Dataset](#introduction)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
+2. [Motivation](#paragraph1)    
 3. [Sample Query](#paragraph2)
+4. [How To Run](#paragraph3)
+
 
 
 ## About the Dataset <a name="introduction"></a>
@@ -14,20 +15,18 @@ The Lichess Chess Database is found on [Kaggle][1]. I would like to thank the da
 
 [1]: https://www.kaggle.com/datasnaek/chess
 
-## Some paragraph <a name="paragraph1"></a>
-The first paragraph text
-
-### Sub paragraph <a name="subparagraph1"></a>
-This is a sub paragraph, formatted in heading 3 style
+## Motivation <a name="paragraph1"></a>
+The Motivation behind this is to examine the Chess Databse to gain insights into the Players that compete on the Lichess Platform. Their Play Styles, Success rates, their improvement over time and other metrics are looked into.
 
 ## Sample Query <a name="paragraph2"></a>
-
 This section shows an Example Query that is implemented in the Microsoft SQL Query File.
 
 ```sql
    SELECT * 
    FROM Lichess..games
 ```
+## How To Run <a name="paragraph3"></a>
+These queries are developed within the framework of the Microsoft SQL Server Management Studio though this can be executed within any appropriate framework.
 
 
 
